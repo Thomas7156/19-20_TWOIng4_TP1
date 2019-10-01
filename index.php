@@ -104,7 +104,7 @@
               </div>
 
               <div class="modal-footer d-flex justify-content-center">
-                <button type="submit "class="btn btn-primary btn-rounded">Envoyer <i class="fas fa-paper-plane-o ml-1"></i></button>
+                <button type="submit "class="btn btn-primary btn-rounded" id="sent">Envoyer <i class="fas fa-paper-plane-o ml-1"></i></button>
                 <!-- Comprends pas pq l'alternative avec le input ne marche pas -->
                 <!-- <input type="submit "class="btn btn-primary btn-rounded" value="Envoyer"/> -->
               </div>
@@ -114,31 +114,50 @@
         </div>
       </div>
 
-      <!-- Dropdown menu, could be useful -->
+      <script type="text/javascript">
+      $("#sent").click(function(){
+        $('#modalContactForm').modal('hide');
+        $('#ModalWarning').modal('show');
+      });
+    </script>
 
-      <!-- <li class="nav-item dropdown">
-      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      Dropdown
-    </a>
-    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-    <a class="dropdown-item" href="#">Action</a>
-    <a class="dropdown-item" href="#">Another action</a>
-    <div class="dropdown-divider"></div>
-    <a class="dropdown-item" href="#">Something else here</a>
-  </div>
-</li> -->
+    <div class="modal fade" id="ModalWarning" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-notify modal-warning" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <p class="heading">C'est dans la boite !</p>
 
-<!-- Dissabled button, dont' know what's that for -->
-<!-- <li class="nav-item">
-<a class="nav-link disabled" href="#">Disabled</a>
-</li> -->
-</ul>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true" class="white-text">&times;</span>
+            </button>
+          </div>
 
-<!-- Search bar -->
-<!-- <form class="form-inline my-2 my-lg-0">
-<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-</form> -->
+          <div class="modal-body">
+
+            <div class="row">
+              <div class="col-3 text-center">
+                <img src="img/Thomas.png" class="rounded-circle">
+                <div style="height: 10px"></div>
+                <p class="title mb-0">Thomas</p>
+                <p class="text-muted " style="font-size: 13px"></p>
+              </div>
+
+              <div class="col-9">
+                <p>Votre message m'a bien été transmis, et je tâcherai de vous répondre dans les plus bref délais.</p>
+                <p class="card-text"><strong>Merci infiniement pour l'intérêt que vous me portez !</strong></p>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="modal-footer justify-content-center">
+            <a href="index.php"type="button" class="btn btn-warning">Parfait ! <i class="far fa-gem ml-1 white-text"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </ul>
 
 </div>
 </nav>
