@@ -114,49 +114,6 @@
         </div>
       </div>
 
-      <script type="text/javascript">
-      $("#sent").click(function(){
-        $('#modalContactForm').modal('hide');
-        $('#ModalWarning').modal('show');
-      });
-    </script>
-
-    <div class="modal fade" id="ModalWarning" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-      <div class="modal-dialog modal-notify modal-warning" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <p class="heading">C'est dans la boite !</p>
-
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true" class="white-text">&times;</span>
-            </button>
-          </div>
-
-          <div class="modal-body">
-
-            <div class="row">
-              <div class="col-3 text-center">
-                <img src="img/Thomas.png" class="rounded-circle">
-                <div style="height: 10px"></div>
-                <p class="title mb-0">Thomas</p>
-                <p class="text-muted " style="font-size: 13px"></p>
-              </div>
-
-              <div class="col-9">
-                <p>Votre message m'a bien été transmis, et je tâcherai de vous répondre dans les plus bref délais.</p>
-                <p class="card-text"><strong>Merci infiniement pour l'intérêt que vous me portez !</strong></p>
-              </div>
-            </div>
-
-          </div>
-
-          <div class="modal-footer justify-content-center">
-            <a href="index.php"type="button" class="btn btn-warning">Parfait ! <i class="far fa-gem ml-1 white-text"></i></a>
-          </div>
-        </div>
-      </div>
-    </div>
-
   </ul>
 
 </div>

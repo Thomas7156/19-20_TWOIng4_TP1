@@ -38,7 +38,7 @@ mail("thomas.lemercier7156@hotmail.com", $Objet = $_POST["Objet"], $Message = $_
 
 ?>
 
-<!-- <body>
+<body>
 
   <main>
 
@@ -57,7 +57,7 @@ mail("thomas.lemercier7156@hotmail.com", $Objet = $_POST["Objet"], $Message = $_
 
             <div class="row">
               <div class="col-3 text-center">
-                <img src="img/Thomas.png" class="rounded-circle">
+                <img src="img/Thomas.png" alt="IMG of Avatars" class="img-fluid z-depth-1-half rounded-circle">
                 <div style="height: 10px"></div>
                 <p class="title mb-0">Thomas</p>
                 <p class="text-muted " style="font-size: 13px"></p>
@@ -69,20 +69,22 @@ mail("thomas.lemercier7156@hotmail.com", $Objet = $_POST["Objet"], $Message = $_
               </div>
             </div>
 
-
           </div>
 
           <div class="modal-footer justify-content-center">
-            <a type="button" class="btn btn-warning">Get it now <i class="far fa-gem ml-1 white-text"></i></a>
-            <a type="button" class="btn btn-outline-warning waves-effect" data-dismiss="modal">No, thanks</a>
+            <a href="index.php"type="button" class="btn btn-warning">Parfait ! <i class="far fa-gem ml-1 white-text"></i></a>
           </div>
         </div>
       </div>
     </div>
 
+    <script type="text/javascript">
+      $('#ModalWarning').modal('show');
+    </script>
+
   </main>
 
-</body> -->
+</body>
 
 
 </html>
