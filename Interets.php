@@ -59,10 +59,6 @@
           <a class="nav-link" href="SkillsLang.php">Compétences & Linguistique</a>
         </li>
 
-        <li class="nav-item">
-          <a class="nav-link" href="Apropos.php">A propos</a>
-        </li>
-
         <li class="text-center">
           <button class="btn btn-primary btn-rounded" data-toggle="modal" data-target="#modalContactForm">Me contacter</button>
         </li>
@@ -121,6 +117,95 @@
 </header>
 
 <main>
+
+  <!-- Card deck -->
+<div class="card-deck w-responsive h-responsive text-center mx-auto p-5">
+
+  <!-- Card -->
+  <div class="card mb-4 zoom">
+
+    <!--Card image-->
+    <div class="view overlay w-auto h-auto d-inline-block">
+      <img class="card-img-top" style="width: 200px; height: 100px;" src="img/calisthenics.jpg" alt="Card image cap">
+      <a href="https://fr.wikipedia.org/wiki/Callisth%C3%A9nie">
+        <div class="mask rgba-white-slight"></div>
+      </a>
+    </div>
+
+    <!--Card content-->
+    <div class="card-body">
+
+      <!--Title-->
+      <h4 class="card-title">Calisthenics & Musculation</h4>
+      <!--Text-->
+      <p class="card-text">La callisthénie est une pratique consistant en un ensemble d'exercices physiques de gymnastique et de musculation,
+        visant à l'amélioration des capacités physiques et de l'esthétique du corps.
+        Selon les époques et les pays, les formes et définitions de la callisthénie ont varié.</p>
+      <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+      <a type="button" class="btn btn-blue btn-md" href="https://fr.wikipedia.org/wiki/Callisth%C3%A9nie">En savoir plus</a>
+
+    </div>
+
+  </div>
+  <!-- Card -->
+
+  <!-- Card -->
+  <div class="card mb-4 zoom">
+
+    <!--Card image-->
+    <div class="view overlay w-auto h-auto d-inline-block">
+      <img class="card-img-top" src="img/guitare.jpg" alt="Card image cap">
+      <a href="#!">
+        <div class="mask rgba-white-slight"></div>
+      </a>
+    </div>
+
+    <!--Card content-->
+    <div class="card-body">
+
+      <!--Title-->
+      <h4 class="card-title">Musique</h4>
+      <!--Text-->
+      <p class="card-text">La musique est un art et une activité culturelle consistant à combiner sons et silences au cours du temps.
+        Les ingrédients principaux sont le rythme, la hauteur, les nuances et le timbre.
+        Elle est aujourd'hui considérée comme une forme de poésie moderne.</p>
+      <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+      <button type="button" class="btn btn-blue btn-md">En savoir plus</button>
+
+    </div>
+
+  </div>
+  <!-- Card -->
+
+  <!-- Card -->
+  <div class="card mb-4 zoom">
+
+    <!--Card image-->
+    <div class="view overlay w-auto h-auto d-inline-block">
+      <img class="card-img-top" src="img/co.jpg" alt="Card image cap">
+      <a href="#!">
+        <div class="mask rgba-white-slight"></div>
+      </a>
+    </div>
+
+    <!--Card content-->
+    <div class="card-body">
+
+      <!--Title-->
+      <h4 class="card-title">Objets connectés & Nouvelles technologies</h4>
+      <!--Text-->
+      <p class="card-text">L'Internet of Things, ou IoT est l'interconnexion entre Internet et des objets, des lieux et des environnements physiques.
+        L'appellation désigne un nombre croissant d'objets connectés à Internet permettant ainsi une communication entre nos biens dits physiques et leurs existences numériques.</p>
+      <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+      <button type="button" class="btn btn-blue btn-md">En savoir plus</button>
+
+    </div>
+
+  </div>
+  <!-- Card -->
+
+</div>
+<!-- Card deck -->
 
 </main>
 

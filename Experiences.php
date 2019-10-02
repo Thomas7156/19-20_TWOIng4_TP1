@@ -59,10 +59,6 @@
           <a class="nav-link" href="SkillsLang.php">Compétences & Linguistique</a>
         </li>
 
-        <li class="nav-item">
-          <a class="nav-link" href="Apropos.php">A propos</a>
-        </li>
-
         <li class="text-center">
           <button class="btn btn-primary btn-rounded" data-toggle="modal" data-target="#modalContactForm">Me contacter</button>
         </li>
