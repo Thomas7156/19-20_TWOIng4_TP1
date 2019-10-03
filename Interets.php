@@ -119,14 +119,14 @@
 <main>
 
   <!-- Card deck -->
-<div class="card-deck w-responsive h-responsive text-center mx-auto p-5">
+<div class="card-deck w-responsive text-center mx-auto mt-5">
 
   <!-- Card -->
   <div class="card mb-4 zoom">
 
     <!--Card image-->
-    <div class="view overlay w-auto h-auto d-inline-block">
-      <img class="card-img-top" style="width: 200px; height: 100px;" src="img/calisthenics.jpg" alt="Card image cap">
+    <div class="view overlay flex-center pt-2">
+      <img class="card-img-top" style="width: 325px; height: 162px;" src="img/calisthenics.jpg" alt="Card image cap">
       <a href="https://fr.wikipedia.org/wiki/Callisth%C3%A9nie">
         <div class="mask rgba-white-slight"></div>
       </a>
@@ -153,9 +153,9 @@
   <div class="card mb-4 zoom">
 
     <!--Card image-->
-    <div class="view overlay w-auto h-auto d-inline-block">
-      <img class="card-img-top" src="img/guitare.jpg" alt="Card image cap">
-      <a href="#!">
+    <div class="view overlay flex-center pt-2">
+      <img class="card-img-top" style="width: 325px; height: 162px;" src="img/guitare.jpg" alt="Card image cap">
+      <a href="https://fr.wikipedia.org/wiki/Musique">
         <div class="mask rgba-white-slight"></div>
       </a>
     </div>
@@ -170,7 +170,7 @@
         Les ingrédients principaux sont le rythme, la hauteur, les nuances et le timbre.
         Elle est aujourd'hui considérée comme une forme de poésie moderne.</p>
       <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
-      <button type="button" class="btn btn-blue btn-md">En savoir plus</button>
+      <a type="button" class="btn btn-blue btn-md" href="https://fr.wikipedia.org/wiki/Musique">En savoir plus</a>
 
     </div>
 
@@ -181,9 +181,9 @@
   <div class="card mb-4 zoom">
 
     <!--Card image-->
-    <div class="view overlay w-auto h-auto d-inline-block">
-      <img class="card-img-top" src="img/co.jpg" alt="Card image cap">
-      <a href="#!">
+    <div class="view overlay flex-center pt-2">
+      <img class="card-img-top" style="width: 325px; height: 162px;" src="img/co.jpg" alt="Card image cap">
+      <a href="https://fr.wikipedia.org/wiki/Internet_des_objets">
         <div class="mask rgba-white-slight"></div>
       </a>
     </div>
@@ -192,12 +192,12 @@
     <div class="card-body">
 
       <!--Title-->
-      <h4 class="card-title">Objets connectés & Nouvelles technologies</h4>
+      <h4 class="card-title">Objets connectés</h4>
       <!--Text-->
-      <p class="card-text">L'Internet of Things, ou IoT est l'interconnexion entre Internet et des objets, des lieux et des environnements physiques.
-        L'appellation désigne un nombre croissant d'objets connectés à Internet permettant ainsi une communication entre nos biens dits physiques et leurs existences numériques.</p>
+      <p class="card-text">L'Internet of Things (IoT), est l'interconnexion entre Internet, des objets, et des environnements physiques.
+        Cela désigne un nombre croissant d'objets connectés à Internet permettant ainsi une communication entre nos biens dits physiques et leurs existences numériques.</p>
       <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
-      <button type="button" class="btn btn-blue btn-md">En savoir plus</button>
+      <a type="button" class="btn btn-blue btn-md" href="https://fr.wikipedia.org/wiki/Internet_des_objets">En savoir plus</a>
 
     </div>
 

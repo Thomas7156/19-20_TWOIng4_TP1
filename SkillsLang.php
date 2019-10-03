@@ -20,6 +20,23 @@
   <script type="text/javascript" src="js/popper.min.js"></script>
   <script type="text/javascript" src="js/bootstrap.min.js"></script>
   <script type="text/javascript" src="js/mdb.min.js"></script>
+
+  <!-- Fonctions javascript -->
+  <script>
+  function move(id, taille) {
+    var elem = document.getElementById(id);
+    var width = 0;
+    var id = setInterval(frame, 10);
+    function frame() {
+      if (width >= taille) {
+        clearInterval(id);
+      } else {
+        width++;
+        elem.style.width = width + '%';
+      }
+    }
+  }
+  </script>
 </head>
 
 <body>
@@ -116,7 +133,31 @@
 </nav>
 </header>
 
-<main>
+<main onload="move()">
+
+  <div class="progress">
+  <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+</div>
+<br>
+<div class="progress">
+  <div class="progress-bar" id="bar1" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" onload = move(id);>
+    <script>
+    window.onload = move("bar1", "25");
+    </script>
+  </div>
+</div>
+<br>
+<div class="progress">
+  <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+</div>
+<br>
+<div class="progress">
+  <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+</div>
+<br>
+<div class="progress">
+  <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+</div>
 
 </main>
 
