@@ -146,87 +146,177 @@ aria-labelledby="navbarDropdownMenuLink-333">
 </header>
 
 <main style="background-color:rgba(0, 0, 0, 0.3);">
-  <div class="d-flex flex-row">
+  <div class="d-flex flex-column">
 
-    <div class="w-75 mt-2 ml-2 mr-2 mb-2">
-      <!-- Jumbotron -->
-      <div class="z-depth-3">
-        <div class="text-white text-center py-5 px-4">
-          <div class="py-5">
-
-            <!-- Content -->
-            <h5 class="h5 cyan-text"><i class="fas fa-chalkboard-teacher"></i> A Propos de moi !</h5>
-            <h2 class="card-title h2 my-4 py-2">"Je saurai être un atout pour vous"</h2>
-
-            <div class="list-group-flush flex-center">
-              <div class="list-group-item" style="background-color:rgba(0, 0, 0, 0.01);">
-                <p class="mb-0"><i class="fas fa-at fa-2x mr-4 blue p-3 white-text rounded " aria-hidden="true"></i>thomas.lemercier7156@hotmail.com</p>
+    <div class="d-flex h-25 d-inline-block flex-row">
+      <div class="z-depth-3 w-75 mt-2 ml-2 mr-2 mb-2">
+        <!--Carousel Wrapper-->
+        <div id="video-carousel-example2" class="carousel slide carousel-fade" data-ride="carousel">
+          <!--Indicators-->
+          <ol class="carousel-indicators">
+            <li data-target="#video-carousel-example2" data-slide-to="0" class="active"></li>
+            <li data-target="#video-carousel-example2" data-slide-to="1"></li>
+            <li data-target="#video-carousel-example2" data-slide-to="2"></li>
+          </ol>
+          <!--/.Indicators-->
+          <!--Slides-->
+          <div class="carousel-inner" role="listbox">
+            <!-- First slide -->
+            <div class="carousel-item active">
+              <!--Mask color-->
+              <div class="view flex-center">
+                <!--Video source-->
+                <video class="video-fluid" style="width: 650px; height: 310px;" autoplay loop muted>
+                  <source src="img/reunionvideo.mp4" type="video/mp4" />
+                </video>
+                <div class="mask rgba-indigo-light"></div>
               </div>
-              <div class="list-group-item" style="background-color:rgba(0, 0, 0, 0.01);">
-                <p class="mb-0"> <i class="fas fa-phone fa-2x mr-4 mr-4 red p-3 white-text rounded" aria-hidden="true"></i>+33 7 89 71 49 59</p>
+
+              <!--Caption-->
+              <div class="carousel-caption">
+                <div class="animated fadeInDown">
+                  <h3 class="h3-responsive">L'Île de La Réunion</h3>
+                  <p>Mon paradis</p>
+                </div>
               </div>
+              <!--Caption-->
             </div>
+            <!-- /.First slide -->
 
-            <div class="list-group-flush flex-center">
-              <div class="list-group-item" style="background-color:rgba(0, 0, 0, 0.01);">
-                <p class="mb-0"><i class="fas fa-home fa-2x mr-4 mr-4 purple p-3 white-text rounded" aria-hidden="true"></i>38 Avenue de la résistance, 93340, Le Raincy</p>
+            <!-- Second slide -->
+            <div class="carousel-item">
+              <!--Mask color-->
+              <div class="view flex-center">
+                <!--Video source-->
+                <img class="img-fluid" src="img/calisthenics.jpg" style="width: 650px; height: 310px;"/>
+                <div class="mask rgba-purple-slight"></div>
               </div>
-              <!-- <div class="list-group-item" style="background-color:rgba(0, 0, 0, 0.01);">
-                <p class="mb-0"><i class="fas fa-birthday-cake fa-2x mr-4 mr-4 green p-3 white-text rounded" aria-hidden="true"></i>07/01/1999</p>
-              </div> -->
+
+              <!--Caption-->
+              <div class="carousel-caption">
+                <div class="animated fadeInDown">
+                  <h3 class="h3-responsive">Calisthenics</h3>
+                  <p>Parce que le sport c'est important</p>
+                </div>
+              </div>
+              <!--Caption-->
             </div>
+            <!-- /.Second slide -->
 
-            <a class="btn blue-gradient mt-5"><i class="fas fa-clone left"></i> Télécharger mon CV</a>
+            <!-- Third slide -->
+            <div class="carousel-item">
+              <!--Mask color-->
+              <div class="view flex-center">
+                <!--Video source-->
+                <img class="img-fluid" src="img/objetsco.jpg" style="width: 650px; height: 310px;"/>
+                <div class="mask rgba-purple-slight"></div>
+              </div>
 
+              <!--Caption-->
+              <div class="carousel-caption">
+                <div class="animated fadeInDown">
+                  <h3 class="h3-responsive">Nouvelles Technologies</h3>
+                  <p>Parce que le monde change</p>
+                </div>
+              </div>
+              <!--Caption-->
+            </div>
+            <!-- /.Third slide -->
+          </div>
+          <!--/.Slides-->
+          <!--Controls-->
+          <a class="carousel-control-prev" href="#video-carousel-example2" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#video-carousel-example2" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+          <!--/.Controls-->
+        </div>
+        <!--Carousel Wrapper-->
+      </div>
+
+      <aside class="z-depth-3 w-25 mt-2 mb-2 mr-2">
+        <ul class="nav nav-pills mb-3 mt-1 ml-1" id="pills-tab" role="tablist">
+          <li class="nav-item">
+            <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab"
+            aria-controls="pills-home" aria-selected="true">Qui je suis ?</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab"
+            aria-controls="pills-profile" aria-selected="false">D'où je viens ?</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab"
+            aria-controls="pills-contact" aria-selected="false">Où j'en suis ?</a>
+          </li>
+        </ul>
+        <div class="tab-content pt-1 pl-2 pb-2 text-center white-text" id="pills-tabContent">
+          <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">Consequat
+            occaecat ullamco amet non eiusmod nostrud dolore irure incididunt est duis anim sunt officia. Fugiat
+            velit proident aliquip nisi incididunt nostrud exercitation proident est nisi. Irure magna elit commodo
+            anim ex veniam culpa eiusmod id nostrud sit cupidatat in veniam ad. Eiusmod consequat eu adipisicing
+            minim anim aliquip cupidatat culpa excepteur quis. Occaecat sit eu exercitation irure Lorem incididunt
+            nostrud.
+          </div>
+          <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">Ad
+            pariatur nostrud pariatur exercitation ipsum ipsum culpa mollit commodo mollit ex. Aute sunt incididunt
+            amet commodo est sint nisi deserunt pariatur do. Aliquip ex eiusmod voluptate exercitation cillum id
+            incididunt elit sunt. Qui minim sit magna Lorem id et dolore velit Lorem amet exercitation duis
+            deserunt. Anim id labore elit adipisicing ut in id occaecat pariatur ut ullamco ea tempor duis.
+          </div>
+          <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">Est
+            quis nulla laborum officia ad nisi ex nostrud culpa Lorem excepteur aliquip dolor aliqua irure ex.
+            Nulla ut duis ipsum nisi elit fugiat commodo sunt reprehenderit laborum veniam eu veniam. Eiusmod minim
+            exercitation fugiat irure ex labore incididunt do fugiat commodo aliquip sit id deserunt reprehenderit
+            aliquip nostrud. Amet ex cupidatat excepteur aute veniam incididunt mollit cupidatat esse irure officia
+            elit do ipsum ullamco Lorem. Ullamco ut ad minim do mollit labore ipsum laboris ipsum commodo sunt
+            tempor enim incididunt. Commodo quis sunt dolore aliquip aute tempor irure magna enim minim
+            reprehenderit. Ullamco consectetur culpa veniam sint cillum aliqua incididunt velit ullamco sunt
+            ullamco quis quis commodo voluptate. Mollit nulla nostrud adipisicing aliqua cupidatat aliqua pariatur
+            mollit voluptate voluptate consequat non.
           </div>
         </div>
-      </div>
-      <!-- Jumbotron -->
+      </aside>
     </div>
 
-    <aside class="z-depth-3 w-25 mt-2 mb-2 mr-2">
-      <ul class="nav nav-pills mb-3 mt-1 ml-1" id="pills-tab" role="tablist">
-        <li class="nav-item">
-          <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab"
-          aria-controls="pills-home" aria-selected="true">Qui je suis ?</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab"
-          aria-controls="pills-profile" aria-selected="false">D'où je viens ?</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab"
-          aria-controls="pills-contact" aria-selected="false">Où j'en suis ?</a>
-        </li>
-      </ul>
-      <div class="tab-content pt-1 pl-2 pb-2 text-center white-text" id="pills-tabContent">
-        <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">Consequat
-          occaecat ullamco amet non eiusmod nostrud dolore irure incididunt est duis anim sunt officia. Fugiat
-          velit proident aliquip nisi incididunt nostrud exercitation proident est nisi. Irure magna elit commodo
-          anim ex veniam culpa eiusmod id nostrud sit cupidatat in veniam ad. Eiusmod consequat eu adipisicing
-          minim anim aliquip cupidatat culpa excepteur quis. Occaecat sit eu exercitation irure Lorem incididunt
-          nostrud.
+
+    <!-- Jumbotron -->
+    <div class="h-75 d-inline-block z-depth-3">
+      <div class="text-white text-center py-5 px-4">
+        <div class="py-5">
+
+          <!-- Content -->
+          <h5 class="h5 cyan-text"><i class="fas fa-chalkboard-teacher"></i> A Propos de moi !</h5>
+          <h2 class="card-title h2 my-4 py-2">"Je saurai être un atout pour vous"</h2>
+
+          <div class="list-group-flush flex-center">
+            <div class="list-group-item" style="background-color:rgba(0, 0, 0, 0.01);">
+              <p class="mb-0"><i class="fas fa-at fa-2x mr-4 blue p-3 white-text rounded " aria-hidden="true"></i>thomas.lemercier7156@hotmail.com</p>
+            </div>
+            <div class="list-group-item" style="background-color:rgba(0, 0, 0, 0.01);">
+              <p class="mb-0"> <i class="fas fa-phone fa-2x mr-4 mr-4 red p-3 white-text rounded" aria-hidden="true"></i>+33 7 89 71 49 59</p>
+            </div>
+          </div>
+
+          <div class="list-group-flush flex-center">
+            <div class="list-group-item" style="background-color:rgba(0, 0, 0, 0.01);">
+              <p class="mb-0"><i class="fas fa-home fa-2x mr-4 mr-4 purple p-3 white-text rounded" aria-hidden="true"></i>38 Avenue de la résistance, 93340, Le Raincy</p>
+            </div>
+            <div class="list-group-item" style="background-color:rgba(0, 0, 0, 0.01);">
+            <p class="mb-0"><i class="fas fa-birthday-cake fa-2x mr-4 mr-4 green p-3 white-text rounded" aria-hidden="true"></i>07/01/1999</p>
+          </div>
         </div>
-        <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">Ad
-          pariatur nostrud pariatur exercitation ipsum ipsum culpa mollit commodo mollit ex. Aute sunt incididunt
-          amet commodo est sint nisi deserunt pariatur do. Aliquip ex eiusmod voluptate exercitation cillum id
-          incididunt elit sunt. Qui minim sit magna Lorem id et dolore velit Lorem amet exercitation duis
-          deserunt. Anim id labore elit adipisicing ut in id occaecat pariatur ut ullamco ea tempor duis.
-        </div>
-        <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">Est
-          quis nulla laborum officia ad nisi ex nostrud culpa Lorem excepteur aliquip dolor aliqua irure ex.
-          Nulla ut duis ipsum nisi elit fugiat commodo sunt reprehenderit laborum veniam eu veniam. Eiusmod minim
-          exercitation fugiat irure ex labore incididunt do fugiat commodo aliquip sit id deserunt reprehenderit
-          aliquip nostrud. Amet ex cupidatat excepteur aute veniam incididunt mollit cupidatat esse irure officia
-          elit do ipsum ullamco Lorem. Ullamco ut ad minim do mollit labore ipsum laboris ipsum commodo sunt
-          tempor enim incididunt. Commodo quis sunt dolore aliquip aute tempor irure magna enim minim
-          reprehenderit. Ullamco consectetur culpa veniam sint cillum aliqua incididunt velit ullamco sunt
-          ullamco quis quis commodo voluptate. Mollit nulla nostrud adipisicing aliqua cupidatat aliqua pariatur
-          mollit voluptate voluptate consequat non.
-        </div>
+
+        <a class="btn blue-gradient mt-5"><i class="fas fa-clone left"></i> Télécharger mon CV</a>
+
       </div>
-    </aside>
+    </div>
   </div>
+  <!-- Jumbotron -->
+</div>
 </main>
 
 <footer class="position-relative fixed-bottom page-footer blue darken-3">

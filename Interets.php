@@ -22,45 +22,40 @@
   <script type="text/javascript" src="js/mdb.min.js"></script>
 </head>
 
-<body>
+<body style="background-image: url(img/reunion5.jpg); background-repeat: no-repeat; background-size: cover; background-position: center center;">
 
-  <header class="header">
+  <header style="background-color:rgba(0, 0, 0, 0.4);">
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-
+    <!--Navbar -->
+    <nav class="mb-1 navbar navbar-expand-lg winter-neva-gradient default-color">
       <img class="rounded-circle" src="img/Thomas.png" width="45" height="60"/>
-
       <a class="navbar-brand" href="#">Thomas Lemercier</a>
-      <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-333"
+      aria-controls="navbarSupportedContent-333" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
-    </button> -->
-
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-
-      <ul class="nav nav-tabs mt-2">
-
-        <li class="nav-item">
-          <a class="nav-link" href="index.php">Accueil</a>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent-333">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link text-white" href="index.php">Accueil
+            <span class="sr-only">(current)</span>
+          </a>
         </li>
-
         <li class="nav-item">
-          <a class="nav-link" href="Formations.php">Mon parcours</a>
+          <a class="nav-link text-white" href="Formations.php">Mon parcous</a>
         </li>
-
         <li class="nav-item">
-          <a class="nav-link" href="Experiences.php">Mes expériences</a>
+          <a class="nav-link text-white" href="Experiences.php">Mes expériences</a>
         </li>
-
         <li class="nav-item">
-          <a class="nav-link active" href="Interets.php">Mes centres d'intérêts</a>
+          <a class="nav-link text-white" href="Interets.php">Mes centres d'intérêts</a>
         </li>
-
         <li class="nav-item">
-          <a class="nav-link" href="SkillsLang.php">Compétences & Linguistique</a>
+          <a class="nav-link text-white" href="SkillsLang.php">Compétences & Linguistique</a>
         </li>
-
-        <li class="text-center">
-          <button class="btn btn-primary btn-rounded" data-toggle="modal" data-target="#modalContactForm">Me contacter</button>
+        <li class="nav-item">
+          <!-- <button type="button" class="btn blue-gradient btn-rounded" data-toggle="modal" data-target="#modalContactForm">Me contacter</button> -->
+          <a class="nav-link cyan-text" href="#modalContactForm" data-toggle="modal" data-target="#modalContactForm">Me contacter</a>
         </li>
 
         <div class="modal fade" id="modalContactForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
@@ -100,7 +95,7 @@
               </div>
 
               <div class="modal-footer d-flex justify-content-center">
-                <button type="submit "class="btn btn-primary btn-rounded" id="sent">Envoyer <i class="fas fa-paper-plane-o ml-1"></i></button>
+                <button type="submit "class="btn btn-primary btn-rounded blue-gradient" id="sent">Envoyer <i class="fas fa-paper-plane-o ml-1"></i></button>
                 <!-- Comprends pas pq l'alternative avec le input ne marche pas -->
                 <!-- <input type="submit "class="btn btn-primary btn-rounded" value="Envoyer"/> -->
               </div>
@@ -109,20 +104,54 @@
           </div>
         </div>
       </div>
-
-  </ul>
-
+      <!-- <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-333" data-toggle="dropdown"
+      aria-haspopup="true" aria-expanded="false">Dropdown
+    </a>
+    <div class="dropdown-menu dropdown-default" aria-labelledby="navbarDropdownMenuLink-333">
+    <a class="dropdown-item" href="#">Action</a>
+    <a class="dropdown-item" href="#">Another action</a>
+    <a class="dropdown-item" href="#">Something else here</a>
+  </div>
+</li> -->
+</ul>
+<ul class="navbar-nav ml-auto nav-flex-icons">
+  <li class="nav-item">
+    <a class="nav-link waves-effect waves-light cyan-text" href="https://www.facebook.com/thomas.lemercier.5">
+      <i class="fab fa-facebook-f"></i>
+    </a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link waves-effect waves-light cyan-text" href="https://www.linkedin.com/in/thomas-lemercier-875869150">
+      <i class="fab fa-linkedin-in"></i>
+    </a>
+  </li>
+  <!-- <li class="nav-item dropdown">
+  <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-333" data-toggle="dropdown"
+  aria-haspopup="true" aria-expanded="false">
+  <i class="fas fa-user"></i>
+</a>
+<div class="dropdown-menu dropdown-menu-right dropdown-default"
+aria-labelledby="navbarDropdownMenuLink-333">
+<a class="dropdown-item" href="#">Action</a>
+<a class="dropdown-item" href="#">Another action</a>
+<a class="dropdown-item" href="#">Something else here</a>
+</div>
+</li> -->
+</ul>
 </div>
 </nav>
+<!--/.Navbar -->
+
 </header>
 
-<main>
+<main style="background-color:rgba(0, 0, 0, 0.3);">
 
   <!-- Card deck -->
-<div class="card-deck w-responsive text-center mx-auto mt-5">
+<div class="card-deck w-responsive text-center mx-auto pt-5">
 
   <!-- Card -->
-  <div class="card mb-5 zoom">
+  <div class="card mb-5 zoom" style="background-color:rgba(0, 0, 0, 0.4);">
 
     <!--Card image-->
     <div class="view overlay flex-center pt-2">
@@ -136,13 +165,13 @@
     <div class="card-body">
 
       <!--Title-->
-      <h4 class="card-title">Calisthenics & Musculation</h4>
+      <h4 class="card-title cyan-text">Calisthenics & Musculation</h4>
       <!--Text-->
-      <p class="card-text">La callisthénie est une pratique consistant en un ensemble d'exercices physiques de gymnastique et de musculation,
+      <p class="card-text white-text">La callisthénie est une pratique consistant en un ensemble d'exercices physiques de gymnastique et de musculation,
         visant à l'amélioration des capacités physiques et de l'esthétique du corps.
         Selon les époques et les pays, les formes et définitions de la callisthénie ont varié.</p>
       <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
-      <a type="button" class="btn btn-blue btn-md" href="https://fr.wikipedia.org/wiki/Callisth%C3%A9nie">En savoir plus</a>
+      <a type="button" class="btn btn-blue btn-md blue-gradient" href="https://fr.wikipedia.org/wiki/Callisth%C3%A9nie">En savoir plus</a>
 
     </div>
 
@@ -150,7 +179,7 @@
   <!-- Card -->
 
   <!-- Card -->
-  <div class="card mb-5 zoom">
+  <div class="card mb-5 zoom" style="background-color:rgba(0, 0, 0, 0.3);">
 
     <!--Card image-->
     <div class="view overlay flex-center pt-2">
@@ -164,13 +193,13 @@
     <div class="card-body">
 
       <!--Title-->
-      <h4 class="card-title">Musique</h4>
+      <h4 class="card-title cyan-text">Musique</h4>
       <!--Text-->
-      <p class="card-text">La musique est un art et une activité culturelle consistant à combiner sons et silences au cours du temps.
+      <p class="card-text white-text">La musique est un art et une activité culturelle consistant à combiner sons et silences au cours du temps.
         Les ingrédients principaux sont le rythme, la hauteur (combinaison dans les fréquences), les nuances et le timbre.
         Elle est aujourd'hui considérée comme une forme de poésie moderne.</p>
       <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
-      <a type="button" class="btn btn-blue btn-md" href="https://fr.wikipedia.org/wiki/Musique">En savoir plus</a>
+      <a type="button" class="btn btn-blue btn-md blue-gradient" href="https://fr.wikipedia.org/wiki/Musique">En savoir plus</a>
 
     </div>
 
@@ -178,7 +207,7 @@
   <!-- Card -->
 
   <!-- Card -->
-  <div class="card mb-5 zoom">
+  <div class="card mb-5 zoom" style="background-color:rgba(0, 0, 0, 0.3);">
 
     <!--Card image-->
     <div class="view overlay flex-center pt-2">
@@ -192,12 +221,12 @@
     <div class="card-body">
 
       <!--Title-->
-      <h4 class="card-title">Objets connectés</h4>
+      <h4 class="card-title cyan-text">Objets connectés</h4>
       <!--Text-->
-      <p class="card-text">L'Internet of Things (IoT), est l'interconnexion entre Internet, des objets, et des environnements physiques.
+      <p class="card-text white-text">L'Internet of Things (IoT), est l'interconnexion entre Internet, des objets, et des environnements physiques.
         Cela désigne un nombre croissant d'objets connectés à Internet permettant ainsi une communication entre nos biens dits physiques et leurs existences numériques.</p>
       <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
-      <a type="button" class="btn btn-blue btn-md" href="https://fr.wikipedia.org/wiki/Internet_des_objets">En savoir plus</a>
+      <a type="button" class="btn btn-blue btn-md blue-gradient" href="https://fr.wikipedia.org/wiki/Internet_des_objets">En savoir plus</a>
 
     </div>
 
