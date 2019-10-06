@@ -22,45 +22,40 @@
   <script type="text/javascript" src="js/mdb.min.js"></script>
 </head>
 
-<body>
+<body style="background-image: url(img/reunion5.jpg); background-repeat: no-repeat; background-size: cover; background-position: center center;">
 
-  <header class="header">
+  <header style="background-color:rgba(0, 0, 0, 0.4);">
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-
+    <!--Navbar -->
+    <nav class="mb-1 navbar navbar-expand-lg winter-neva-gradient default-color">
       <img class="rounded-circle" src="img/Thomas.png" width="45" height="60"/>
-
       <a class="navbar-brand" href="#">Thomas Lemercier</a>
-      <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-333"
+      aria-controls="navbarSupportedContent-333" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
-    </button> -->
-
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-
-      <ul class="nav nav-tabs mt-2">
-
-        <li class="nav-item">
-          <a class="nav-link active" href="index.php">Accueil</a>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent-333">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link text-white" href="index.php">Accueil
+            <span class="sr-only">(current)</span>
+          </a>
         </li>
-
         <li class="nav-item">
-          <a class="nav-link" href="Formations.php">Mon parcours</a>
+          <a class="nav-link text-white" href="Formations.php">Mon parcous</a>
         </li>
-
         <li class="nav-item">
-          <a class="nav-link" href="Experiences.php">Mes expériences</a>
+          <a class="nav-link text-white" href="Experiences.php">Mes expériences</a>
         </li>
-
         <li class="nav-item">
-          <a class="nav-link" href="Interets.php">Mes centres d'intérêts</a>
+          <a class="nav-link text-white" href="Interets.php">Mes centres d'intérêts</a>
         </li>
-
         <li class="nav-item">
-          <a class="nav-link" href="SkillsLang.php">Compétences & Linguistique</a>
+          <a class="nav-link text-white" href="SkillsLang.php">Compétences & Linguistique</a>
         </li>
-
-        <li class="text-center">
-          <button class="btn btn-primary btn-rounded" data-toggle="modal" data-target="#modalContactForm">Me contacter</button>
+        <li class="nav-item">
+          <!-- <button type="button" class="btn blue-gradient btn-rounded" data-toggle="modal" data-target="#modalContactForm">Me contacter</button> -->
+          <a class="nav-link cyan-text" href="#modalContactForm" data-toggle="modal" data-target="#modalContactForm">Me contacter</a>
         </li>
 
         <div class="modal fade" id="modalContactForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
@@ -100,7 +95,7 @@
               </div>
 
               <div class="modal-footer d-flex justify-content-center">
-                <button type="submit "class="btn btn-primary btn-rounded" id="sent">Envoyer <i class="fas fa-paper-plane-o ml-1"></i></button>
+                <button type="submit "class="btn btn-primary btn-rounded blue-gradient" id="sent">Envoyer <i class="fas fa-paper-plane-o ml-1"></i></button>
                 <!-- Comprends pas pq l'alternative avec le input ne marche pas -->
                 <!-- <input type="submit "class="btn btn-primary btn-rounded" value="Envoyer"/> -->
               </div>
@@ -109,47 +104,126 @@
           </div>
         </div>
       </div>
-
-    </ul>
-
+      <!-- <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-333" data-toggle="dropdown"
+      aria-haspopup="true" aria-expanded="false">Dropdown
+    </a>
+    <div class="dropdown-menu dropdown-default" aria-labelledby="navbarDropdownMenuLink-333">
+    <a class="dropdown-item" href="#">Action</a>
+    <a class="dropdown-item" href="#">Another action</a>
+    <a class="dropdown-item" href="#">Something else here</a>
   </div>
+</li> -->
+</ul>
+<ul class="navbar-nav ml-auto nav-flex-icons">
+  <li class="nav-item">
+    <a class="nav-link waves-effect waves-light cyan-text" href="https://www.facebook.com/thomas.lemercier.5">
+      <i class="fab fa-facebook-f"></i>
+    </a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link waves-effect waves-light cyan-text" href="https://www.linkedin.com/in/thomas-lemercier-875869150">
+      <i class="fab fa-linkedin-in"></i>
+    </a>
+  </li>
+  <!-- <li class="nav-item dropdown">
+  <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-333" data-toggle="dropdown"
+  aria-haspopup="true" aria-expanded="false">
+  <i class="fas fa-user"></i>
+</a>
+<div class="dropdown-menu dropdown-menu-right dropdown-default"
+aria-labelledby="navbarDropdownMenuLink-333">
+<a class="dropdown-item" href="#">Action</a>
+<a class="dropdown-item" href="#">Another action</a>
+<a class="dropdown-item" href="#">Something else here</a>
+</div>
+</li> -->
+</ul>
+</div>
 </nav>
+<!--/.Navbar -->
 
 </header>
 
-<main>
+<main style="background-color:rgba(0, 0, 0, 0.3);">
   <div class="d-flex flex-row">
 
-    <div class="w-75 mt-2">
+    <div class="w-75 mt-2 ml-2 mr-2 mb-2">
+      <!-- Jumbotron -->
+      <div class="z-depth-3">
+        <div class="text-white text-center py-5 px-4">
+          <div class="py-5">
 
+            <!-- Content -->
+            <h5 class="h5 cyan-text"><i class="fas fa-chalkboard-teacher"></i> A Propos de moi !</h5>
+            <h2 class="card-title h2 my-4 py-2">"Je saurai être un atout pour vous"</h2>
+
+            <div class="list-group-flush flex-center">
+              <div class="list-group-item" style="background-color:rgba(0, 0, 0, 0.01);">
+                <p class="mb-0"><i class="fas fa-at fa-2x mr-4 blue p-3 white-text rounded " aria-hidden="true"></i>thomas.lemercier7156@hotmail.com</p>
+              </div>
+              <div class="list-group-item" style="background-color:rgba(0, 0, 0, 0.01);">
+                <p class="mb-0"> <i class="fas fa-phone fa-2x mr-4 mr-4 red p-3 white-text rounded" aria-hidden="true"></i>+33 7 89 71 49 59</p>
+              </div>
+            </div>
+
+            <div class="list-group-flush flex-center">
+              <div class="list-group-item" style="background-color:rgba(0, 0, 0, 0.01);">
+                <p class="mb-0"><i class="fas fa-home fa-2x mr-4 mr-4 purple p-3 white-text rounded" aria-hidden="true"></i>38 Avenue de la résistance, 93340, Le Raincy</p>
+              </div>
+              <!-- <div class="list-group-item" style="background-color:rgba(0, 0, 0, 0.01);">
+                <p class="mb-0"><i class="fas fa-birthday-cake fa-2x mr-4 mr-4 green p-3 white-text rounded" aria-hidden="true"></i>07/01/1999</p>
+              </div> -->
+            </div>
+
+            <a class="btn blue-gradient mt-5"><i class="fas fa-clone left"></i> Télécharger mon CV</a>
+
+          </div>
+        </div>
+      </div>
+      <!-- Jumbotron -->
     </div>
 
-    <aside class="w-25 mt-2">
-      <div class="z-depth-1 mt-2 pl-2 pt-2 mr-2">
-        <h4 class="font-weight-bold amber text-center">Qui suis-je ?</h4>
-        <p class="">Ad leggings keytar, brunch id art party dolor labore. Pitchfork yr enim lo-fi before they sold out qui.
-          Tumblr
-          farm-to-table bicycle rights whatever. Anim keffiyeh carles cardigan. Velit seitan mcsweeney's photo
-          booth 3 wolf moon irure. Cosby sweater lomo jean shorts, williamsburg hoodie minim qui you probably haven't
-          heard of them et cardigan trust fund culpa biodiesel wes anderson aesthetic. Nihil tattooed accusamus,
-          cred irony biodiesel keffiyeh artisan ullamco consequat.
-        </p>
-        <h4 class="text-warning text-center">D'où je viens ?</h4>
-        <p>Ad leggings keytar, brunch id art party dolor labore. Pitchfork yr enim lo-fi before they sold out qui.
-          Tumblr
-          farm-to-table bicycle rights whatever. Anim keffiyeh carles cardigan. Velit seitan mcsweeney's photo
-          booth 3 wolf moon irure. Cosby sweater lomo jean shorts, williamsburg hoodie minim qui you probably haven't
-          heard of them et cardigan trust fund culpa biodiesel wes anderson aesthetic. Nihil tattooed accusamus,
-          cred irony biodiesel keffiyeh artisan ullamco consequat.
-        </p>
-        <h4 class="text-warning text-center ">Où j'en suis ?</h4>
-        <p>Ad leggings keytar, brunch id art party dolor labore. Pitchfork yr enim lo-fi before they sold out qui.
-          Tumblr
-          farm-to-table bicycle rights whatever. Anim keffiyeh carles cardigan. Velit seitan mcsweeney's photo
-          booth 3 wolf moon irure. Cosby sweater lomo jean shorts, williamsburg hoodie minim qui you probably haven't
-          heard of them et cardigan trust fund culpa biodiesel wes anderson aesthetic. Nihil tattooed accusamus,
-          cred irony biodiesel keffiyeh artisan ullamco consequat.
-        </p>
+    <aside class="z-depth-3 w-25 mt-2 mb-2 mr-2">
+      <ul class="nav nav-pills mb-3 mt-1 ml-1" id="pills-tab" role="tablist">
+        <li class="nav-item">
+          <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab"
+          aria-controls="pills-home" aria-selected="true">Qui je suis ?</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab"
+          aria-controls="pills-profile" aria-selected="false">D'où je viens ?</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab"
+          aria-controls="pills-contact" aria-selected="false">Où j'en suis ?</a>
+        </li>
+      </ul>
+      <div class="tab-content pt-1 pl-2 pb-2 text-center white-text" id="pills-tabContent">
+        <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">Consequat
+          occaecat ullamco amet non eiusmod nostrud dolore irure incididunt est duis anim sunt officia. Fugiat
+          velit proident aliquip nisi incididunt nostrud exercitation proident est nisi. Irure magna elit commodo
+          anim ex veniam culpa eiusmod id nostrud sit cupidatat in veniam ad. Eiusmod consequat eu adipisicing
+          minim anim aliquip cupidatat culpa excepteur quis. Occaecat sit eu exercitation irure Lorem incididunt
+          nostrud.
+        </div>
+        <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">Ad
+          pariatur nostrud pariatur exercitation ipsum ipsum culpa mollit commodo mollit ex. Aute sunt incididunt
+          amet commodo est sint nisi deserunt pariatur do. Aliquip ex eiusmod voluptate exercitation cillum id
+          incididunt elit sunt. Qui minim sit magna Lorem id et dolore velit Lorem amet exercitation duis
+          deserunt. Anim id labore elit adipisicing ut in id occaecat pariatur ut ullamco ea tempor duis.
+        </div>
+        <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">Est
+          quis nulla laborum officia ad nisi ex nostrud culpa Lorem excepteur aliquip dolor aliqua irure ex.
+          Nulla ut duis ipsum nisi elit fugiat commodo sunt reprehenderit laborum veniam eu veniam. Eiusmod minim
+          exercitation fugiat irure ex labore incididunt do fugiat commodo aliquip sit id deserunt reprehenderit
+          aliquip nostrud. Amet ex cupidatat excepteur aute veniam incididunt mollit cupidatat esse irure officia
+          elit do ipsum ullamco Lorem. Ullamco ut ad minim do mollit labore ipsum laboris ipsum commodo sunt
+          tempor enim incididunt. Commodo quis sunt dolore aliquip aute tempor irure magna enim minim
+          reprehenderit. Ullamco consectetur culpa veniam sint cillum aliqua incididunt velit ullamco sunt
+          ullamco quis quis commodo voluptate. Mollit nulla nostrud adipisicing aliqua cupidatat aliqua pariatur
+          mollit voluptate voluptate consequat non.
+        </div>
       </div>
     </aside>
   </div>
