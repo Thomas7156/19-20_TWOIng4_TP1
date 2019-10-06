@@ -133,35 +133,215 @@
 </nav>
 </header>
 
-<main onload="move()">
+<main>
 
-  <div class="progress">
-  <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
-</div>
-<br>
-<div class="progress">
-  <div class="progress-bar" id="bar1" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" onload = move(id);>
-    <script>
-    window.onload = move("bar1", "25");
-    </script>
+  <!-- Card deck -->
+<div class="card-deck w-responsive text-center mx-auto mt-5">
+
+  <!-- Card -->
+  <div class="card mb-5 zoom">
+
+    <!--Card image-->
+    <div class="view overlay flex-center mt-2">
+      <img class="card-img-top" style="width: 325px; height: 162px;" src="img/france-flag.gif" alt="Card image cap">
+        <div class="mask rgba-white-slight"></div>
+      </a>
+    </div>
+
+    <!--Card content-->
+    <div class="card-body">
+
+      <!--Title-->
+      <h4 class="card-title">Français</h4>
+      <!--Text-->
+      <p class="card-text">Langue native que je maîtrise donc à 100%, bien qu'il reste toujours impossible de maîtriser une langue à la perfection.</p>
+
+      <div class="progress mt-3">
+        <div class="progress-bar" id="bar1" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+          <p class="text-dark text-center mt-3">100%</p>
+          <script>
+          window.onload = move("bar1", "100");
+          </script>
+        </div>
+      </div>
+
+    </div>
+
   </div>
+  <!-- Card -->
+
+  <!-- Card -->
+  <div class="card mb-5 zoom">
+
+    <!--Card image-->
+    <div class="view overlay flex-center mt-2">
+      <img class="card-img-top" style="width: 325px; height: 162px;" src="img/anglais.gif" alt="Card image cap">
+        <div class="mask rgba-white-slight"></div>
+      </a>
+    </div>
+
+    <!--Card content-->
+    <div class="card-body">
+
+      <!--Title-->
+      <h4 class="card-title">Anglais</h4>
+      <!--Text-->
+      <p class="card-text">Langue que je maitrîse très bien (presque bilingue) et que j'ai pu consolider lors de mes études à l'étranger.</p>
+
+      <div class="progress mt-3">
+        <div class="progress-bar" id="bar2" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+          <p class="text-dark text-center mt-3">80%</p>
+          <script>
+          window.onload = move("bar2", "80");
+          </script>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+  <!-- Card -->
+
+  <!-- Card -->
+  <div class="card mb-5 zoom">
+
+    <!--Card image-->
+    <div class="view overlay flex-center mt-2">
+      <img class="card-img-top" style="width: 325px; height: 162px;" src="img/espagnol.gif" alt="Card image cap">
+        <div class="mask rgba-white-slight"></div>
+      </a>
+    </div>
+
+    <!--Card content-->
+    <div class="card-body">
+
+      <!--Title-->
+      <h4 class="card-title">Espagnol</h4>
+      <!--Text-->
+      <p class="card-text">Langue dans laquelle de très bonnes bases sont acquises, mais que je ne pratique plus assez malheureusement.</p>
+
+      <div class="progress mt-3">
+        <div class="progress-bar" id="bar3" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+          <p class="text-dark text-center mt-3">40%</p>
+          <script>
+          window.onload = move("bar3", "40");
+          </script>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+  <!-- Card -->
+
 </div>
-<br>
-<div class="progress">
-  <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+<!-- Card deck -->
+
+<!-- Card deck -->
+<div class="card-deck w-responsive text-center mx-auto mt-2">
+
+<!-- Card -->
+<div class="card mb-5 zoom">
+
+  <!--Card image-->
+  <div class="view overlay flex-center mt-2">
+    <img class="card-img-top" style="width: 325px; height: 162px;" src="img/prog1.jpg" alt="Card image cap">
+      <div class="mask rgba-white-slight"></div>
+    </a>
+  </div>
+
+  <!--Card content-->
+  <div class="card-body">
+
+    <!--Title-->
+    <h4 class="card-title">C/C++/Java</h4>
+    <!--Text-->
+    <p class="card-text">Trois language de programmation que je matrise correctement, particulièrement le C et C++, et que j'ai développé pendant mes années d'études.</p>
+
+    <div class="progress mt-3">
+      <div class="progress-bar" id="bar4" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+        <p class="text-dark text-center mt-3">75%</p>
+        <script>
+        window.onload = move("bar4", "75");
+        </script>
+      </div>
+    </div>
+
+  </div>
+
 </div>
-<br>
-<div class="progress">
-  <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+<!-- Card -->
+
+<!-- Card -->
+<div class="card mb-5 zoom">
+
+  <!--Card image-->
+  <div class="view overlay flex-center mt-2">
+    <img class="card-img-top" style="width: 325px; height: 162px;" src="img/prog2.jpg" alt="Card image cap">
+      <div class="mask rgba-white-slight"></div>
+    </a>
+  </div>
+
+  <!--Card content-->
+  <div class="card-body">
+
+    <!--Title-->
+    <h4 class="card-title">HTML/CSS/Php</h4>
+    <!--Text-->
+    <p class="card-text">Language web que je matrise correctement, à voir le résultat de mon site. J'ai également développé des connaissances en BDD sql.</p>
+
+    <div class="progress mt-3">
+      <div class="progress-bar" id="bar5" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+        <p class="text-dark text-center mt-3">80%</p>
+        <script>
+        window.onload = move("bar5", "80");
+        </script>
+      </div>
+    </div>
+
+  </div>
+
 </div>
-<br>
-<div class="progress">
-  <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+<!-- Card -->
+
+<!-- Card -->
+<div class="card mb-5 zoom">
+
+  <!--Card image-->
+  <div class="view overlay flex-center mt-2">
+    <img class="card-img-top" style="width: 325px; height: 162px;" src="img/packoffice.png" alt="Card image cap">
+      <div class="mask rgba-white-slight"></div>
+    </a>
+  </div>
+
+  <!--Card content-->
+  <div class="card-body">
+
+    <!--Title-->
+    <h4 class="card-title">Pack Office</h4>
+    <!--Text-->
+    <p class="card-text">J'ai également une maitrise du pack office, plus particulièrement en PPT et Word, bien qu'excel ne me fasse pas peur !</p>
+
+    <div class="progress mt-3">
+      <div class="progress-bar" id="bar6" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+        <p class="text-dark text-center mt-3">90%</p>
+        <script>
+        window.onload = move("bar6", "90");
+        </script>
+      </div>
+    </div>
+
+  </div>
+
 </div>
+<!-- Card -->
+
+</div>
+<!-- Card deck -->
 
 </main>
 
-<footer class="fixed-bottom page-footer blue darken-3">
+<footer class="position-relative fixed-bottom page-footer blue darken-3">
 
   <div class="py-3 flex-center">
 

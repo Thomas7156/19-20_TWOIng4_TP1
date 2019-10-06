@@ -122,7 +122,7 @@
 <div class="card-deck w-responsive text-center mx-auto mt-5">
 
   <!-- Card -->
-  <div class="card mb-4 zoom">
+  <div class="card mb-5 zoom">
 
     <!--Card image-->
     <div class="view overlay flex-center pt-2">
@@ -150,7 +150,7 @@
   <!-- Card -->
 
   <!-- Card -->
-  <div class="card mb-4 zoom">
+  <div class="card mb-5 zoom">
 
     <!--Card image-->
     <div class="view overlay flex-center pt-2">
@@ -167,7 +167,7 @@
       <h4 class="card-title">Musique</h4>
       <!--Text-->
       <p class="card-text">La musique est un art et une activité culturelle consistant à combiner sons et silences au cours du temps.
-        Les ingrédients principaux sont le rythme, la hauteur, les nuances et le timbre.
+        Les ingrédients principaux sont le rythme, la hauteur (combinaison dans les fréquences), les nuances et le timbre.
         Elle est aujourd'hui considérée comme une forme de poésie moderne.</p>
       <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
       <a type="button" class="btn btn-blue btn-md" href="https://fr.wikipedia.org/wiki/Musique">En savoir plus</a>
@@ -178,7 +178,7 @@
   <!-- Card -->
 
   <!-- Card -->
-  <div class="card mb-4 zoom">
+  <div class="card mb-5 zoom">
 
     <!--Card image-->
     <div class="view overlay flex-center pt-2">
@@ -209,7 +209,7 @@
 
 </main>
 
-<footer class="fixed-bottom page-footer blue darken-3">
+<footer class="position-relative fixed-bottom page-footer blue darken-3">
 
   <div class="py-3 flex-center">
 

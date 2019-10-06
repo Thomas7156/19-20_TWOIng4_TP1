@@ -110,17 +110,52 @@
         </div>
       </div>
 
-  </ul>
+    </ul>
 
-</div>
+  </div>
 </nav>
+
 </header>
 
 <main>
+  <div class="d-flex flex-row">
 
+    <div class="w-75 mt-2">
+
+    </div>
+
+    <aside class="w-25 mt-2">
+      <div class="z-depth-1 mt-2 pl-2 pt-2 mr-2">
+        <h4 class="font-weight-bold amber text-center">Qui suis-je ?</h4>
+        <p class="">Ad leggings keytar, brunch id art party dolor labore. Pitchfork yr enim lo-fi before they sold out qui.
+          Tumblr
+          farm-to-table bicycle rights whatever. Anim keffiyeh carles cardigan. Velit seitan mcsweeney's photo
+          booth 3 wolf moon irure. Cosby sweater lomo jean shorts, williamsburg hoodie minim qui you probably haven't
+          heard of them et cardigan trust fund culpa biodiesel wes anderson aesthetic. Nihil tattooed accusamus,
+          cred irony biodiesel keffiyeh artisan ullamco consequat.
+        </p>
+        <h4 class="text-warning text-center">D'où je viens ?</h4>
+        <p>Ad leggings keytar, brunch id art party dolor labore. Pitchfork yr enim lo-fi before they sold out qui.
+          Tumblr
+          farm-to-table bicycle rights whatever. Anim keffiyeh carles cardigan. Velit seitan mcsweeney's photo
+          booth 3 wolf moon irure. Cosby sweater lomo jean shorts, williamsburg hoodie minim qui you probably haven't
+          heard of them et cardigan trust fund culpa biodiesel wes anderson aesthetic. Nihil tattooed accusamus,
+          cred irony biodiesel keffiyeh artisan ullamco consequat.
+        </p>
+        <h4 class="text-warning text-center ">Où j'en suis ?</h4>
+        <p>Ad leggings keytar, brunch id art party dolor labore. Pitchfork yr enim lo-fi before they sold out qui.
+          Tumblr
+          farm-to-table bicycle rights whatever. Anim keffiyeh carles cardigan. Velit seitan mcsweeney's photo
+          booth 3 wolf moon irure. Cosby sweater lomo jean shorts, williamsburg hoodie minim qui you probably haven't
+          heard of them et cardigan trust fund culpa biodiesel wes anderson aesthetic. Nihil tattooed accusamus,
+          cred irony biodiesel keffiyeh artisan ullamco consequat.
+        </p>
+      </div>
+    </aside>
+  </div>
 </main>
 
-<footer class="fixed-bottom page-footer blue darken-3">
+<footer class="position-relative fixed-bottom page-footer blue darken-3">
 
   <div class="py-3 flex-center">
 

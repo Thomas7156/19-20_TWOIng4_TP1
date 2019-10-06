@@ -120,7 +120,7 @@
 
 </main>
 
-<footer class="fixed-bottom page-footer blue darken-3">
+<footer class="position-relative fixed-bottom page-footer blue darken-3">
 
   <div class="py-3 flex-center">
 
