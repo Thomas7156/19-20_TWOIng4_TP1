@@ -20,6 +20,23 @@
   <script type="text/javascript" src="js/popper.min.js"></script>
   <script type="text/javascript" src="js/bootstrap.min.js"></script>
   <script type="text/javascript" src="js/mdb.min.js"></script>
+
+  <!-- Fonctions javascript -->
+  <script>
+  function move(id, taille) {
+    var elem = document.getElementById(id);
+    var width = 0;
+    var id = setInterval(frame, 10);
+    function frame() {
+      if (width >= taille) {
+        clearInterval(id);
+      } else {
+        width++;
+        elem.style.width = width + '%';
+      }
+    }
+  }
+  </script>
 </head>
 
 <body style="background-image: url(img/reunion5.jpg); background-repeat: no-repeat; background-size: cover; background-position: center center;">
@@ -145,11 +162,115 @@ aria-labelledby="navbarDropdownMenuLink-333">
 
 </header>
 
-<main style="background-color:rgba(0, 0, 0, 0.3);">
+<main style="background-color:rgba(0, 0, 0, 0.01);">
+
+  <!-- Card deck -->
+<div class="card-deck w-responsive text-center mx-auto mt-5">
+
+  <!-- Card -->
+  <div class="card mb-5 zoom" style="background-color:rgba(0, 0, 0, 0.3);">
+
+    <!--Card image-->
+    <div class="view overlay flex-center mt-2">
+      <img class="card-img-top" style="width: 325px; height: 162px;" src="img/BNP-Paribas.jpg" alt="Card image cap">
+        <div class="mask rgba-white-slight"></div>
+      </a>
+    </div>
+
+    <!--Card content-->
+    <div class="card-body">
+
+      <!--Title-->
+      <h4 class="card-title cyan-text">Stage de deuxième année</h4>
+      <!--Text-->
+      <p class="card-text white-text">J'ai effectué mon stage de deuxième année dans l'entreprise BNP Paribas, plus principalement dans la branche IMEX, IMmobilier d'EXploitation.
+      J'y ai intégré une équipe d'ingénieur en charge des objets connectés améliorant la vie des collaborateurs au sein dans locaux BNP.</p>
+
+      <div class="progress mt-3">
+        <div class="progress-bar" id="bar1" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+          <p class="text-dark text-center mt-3">Terminé</p>
+          <script>
+          window.onload = move("bar1", "100");
+          </script>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+  <!-- Card -->
+
+  <!-- Card -->
+  <div class="card mb-5 zoom" style="background-color:rgba(0, 0, 0, 0.3);">
+
+    <!--Card image-->
+    <div class="view overlay flex-center mt-2">
+      <img class="card-img-top" style="width: 325px; height: 162px;" src="img/NMU.jpg" alt="Card image cap">
+        <div class="mask rgba-white-slight"></div>
+      </a>
+    </div>
+
+    <!--Card content-->
+    <div class="card-body">
+
+      <!--Title-->
+      <h4 class="card-title cyan-text">Study Abroad</h4>
+      <!--Text-->
+      <p class="card-text white-text">J'ai effectué des études à l'étranger durant un semestre entier à Nelson Mandela University, and afrique du sud, Port Elizabeth.</p>
+
+      <div class="progress mt-3">
+        <div class="progress-bar" id="bar2" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+          <p class="text-dark text-center mt-3">Terminé</p>
+          <script>
+          window.onload = move("bar2", "100");
+          </script>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+  <!-- Card -->
+
+  <!-- Card -->
+  <div class="card mb-5 zoom" style="background-color:rgba(0, 0, 0, 0.3);">
+
+    <!--Card image-->
+    <div class="view overlay flex-center mt-2">
+      <img class="card-img-top" style="width: 325px; height: 162px;" src="img/WYES.png" alt="Card image cap">
+        <div class="mask rgba-white-slight"></div>
+      </a>
+    </div>
+
+    <!--Card content-->
+    <div class="card-body">
+
+      <!--Title-->
+      <h4 class="card-title cyan-text">Stage de troisème année chez WYES</h4>
+      <!--Text-->
+      <p class="card-text white-text">J'ai effectué mon stage de 3ème année durant l'été 2019 dans la start up WYES. J'ai pu découvrir ce monde de start up dans un ambiance des plus agréable,
+      tout en développant mes compétences notamment en react.</p>
+
+      <div class="progress mt-3">
+        <div class="progress-bar" id="bar3" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+          <p class="text-dark text-center mt-3">Terminé</p>
+          <script>
+          window.onload = move("bar3", "100");
+          </script>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+  <!-- Card -->
+
+</div>
+<!-- Card deck -->
 
 </main>
 
-<footer class="position-relative fixed-bottom page-footer blue darken-3">
+<footer class="fixed-bottom page-footer blue darken-3">
 
   <div class="py-3 flex-center">
 

@@ -310,7 +310,7 @@ aria-labelledby="navbarDropdownMenuLink-333">
           </div>
         </div>
 
-        <a class="btn blue-gradient mt-5"><i class="fas fa-clone left"></i> Télécharger mon CV</a>
+        <a href="img/CV.pdf" download="img/CV.pdf" class="btn blue-gradient mt-5"><i class="fas fa-clone left"></i> Télécharger mon CV</a>
 
       </div>
     </div>
