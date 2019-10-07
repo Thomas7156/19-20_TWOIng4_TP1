@@ -22,7 +22,7 @@
   <script type="text/javascript" src="js/mdb.min.js"></script>
 </head>
 
-<body style="background-image: url(img/reunion5.jpg); background-repeat: no-repeat; background-size: cover; background-position: center center;">
+<body style="background-image: url(img/homescreen.jpg); background-repeat: no-repeat; background-size: cover; background-position: center center;">
 
   <header style="background-color:rgba(0, 0, 0, 0.4);">
 
